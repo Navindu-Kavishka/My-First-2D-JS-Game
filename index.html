@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CowGirl Run</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" href="Idle (1).png"/>
+    </head>
+
+    <body onkeyup="keyCheck(event);" class="body" onload="idleAnimation();">
+        
+        
+
+
+        <div class="background" id="background">
+
+            <img src="Run (1).png" class="girl" id="girlId">
+
+            <div class="sco" id="sco"></div>
+
+            <div id="score" class="score">0</div>
+
+            <div class="endScreen" id="endScreen">
+                <div></div>
+                <div></div>
+                <div class="endScore" id="endScore">0</div>
+
+                    <button class="btn" onclick="reload();"></button>
+
+            </div>
+
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+.background{
+    background-image: url(background.jpg);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-size: cover;
+
+    overflow-x: hidden;
+}
+
+.body{
+    margin: 0px;
+}
+
+.girl{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 420px;
+}
+
+.score{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 30px;
+}
+
+.block{
+    width: 90px;
+    height: 150px;
+    background-image: url("flame.gif");
+    background-size: cover;
+    position: absolute;
+    margin-top: 500px;
+
+}
+
+.endScreen{
+    position: absolute;
+    background-image: url(SC.png);
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+     margin-left: 120px;
+    font-family: "Gothum Ssm";
+    font-weight: bold;
+    font-size: 50px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    flex-direction: column;
+
+    margin-left: 500px;
+    margin-top: 2px;
+
+    visibility: hidden;
+
+}
+
+.endScore{
+    margin-top: 370px;
+    color: gold;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.btn{
+    width: 350px;
+    height: 70px;
+    background-image: url("NE.png");
+    border-radius: 10px;
+    border: none;
+    
+    margin-top: 25px;
+}
+
+
+
+.t1{
+margin-top: 100px;
+margin-left: -100px;
+
+}
+
+.t2{
+    width: 236px;
+    height: 77px;
+    background-image:url(41.png) ;
+   color: brown;
+    margin-top: 100px;
+    font-size: 30px;
+   
+}
